@@ -5,10 +5,11 @@
   "main": "index.js",
   "dependencies": {
     "ember-cli": "^1.13.12",
-    "npm": "^3.4.0",
+    "npm": "^3.4.0"
+  },
+  "devDependencies": {
     "phantomjs": "^1.9.18"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
