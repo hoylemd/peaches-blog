@@ -1,5 +1,5 @@
 {
-  "name": "peaches-blog",
+  "name": "peaches-website",
   "version": "0.0.1",
   "description": "An emberjs blog platform",
   "main": "index.js",
@@ -15,12 +15,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hoylemd/peaches-blog.git"
+    "url": "git+https://github.com/hoylemd/peaches-website.git"
   },
   "author": "hoylemd",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/hoylemd/peaches-blog/issues"
+    "url": "https://github.com/hoylemd/peaches-website/issues"
   },
-  "homepage": "https://github.com/hoylemd/peaches-blog#readme"
+  "homepage": "https://github.com/hoylemd/peaches-website#readme"
 }
