@@ -9,7 +9,6 @@ usage="$usage firsttime = Execute first-time setup\n"
 
 if [ "$command" = "install" ]; then
   echo "Installing!"
-  source "$nenv_path/bin/activate"
   npm install
 elif [ "$command" = "firsttime" ]; then
   if [ -d "$nenv_path" ]; then
