@@ -1,0 +1,24 @@
+{
+  "name": "peaches-blog",
+  "version": "0.0.1",
+  "description": "An emberjs blog platform",
+  "main": "index.js",
+  "dependencies": {
+    "ember-cli": "^1.13.12",
+    "npm": "^3.4.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hoylemd/peaches-blog.git"
+  },
+  "author": "hoylemd",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hoylemd/peaches-blog/issues"
+  },
+  "homepage": "https://github.com/hoylemd/peaches-blog#readme"
+}
