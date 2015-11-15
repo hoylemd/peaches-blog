@@ -1,0 +1,11 @@
+Mike Hoyle AKA Peaches website app
+
+First time setup:
+$ make firsttime
+
+Updating:
+$ git pull
+$ make install
+
+Running:
+$ make server
