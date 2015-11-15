@@ -17,8 +17,9 @@ elif [ "$command" = "deploy" ]; then
   site_path="$hostname:/var/www/peaches-website"
   nginx_path="$hostname:/etc/nginx/sites-available/peaches-website.conf"
   ember build --environment=production
-  echo "copying distributable files to"
-  scp -r dist/ $site_path
+  echo "copying distributable files to $site_path"
+  scp -r dist/* $site_path
+  echo "copying nginx config to $nginx_path"
   scp nginx.conf $nginx_path
 else
   echo "$usage"
