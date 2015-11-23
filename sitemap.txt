@@ -1,0 +1,15 @@
+home:
+  - blog
+  - github (external)
+  - stuff
+  - resume (external)
+
+blog:
+  - home
+  - post
+
+stuff:
+  - password generator (github)
+  - wibblefish/fizzbuzz (github)
+  - github (external)
+  - Fallout 4 Junkbase
