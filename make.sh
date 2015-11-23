@@ -7,6 +7,10 @@ usage="$usage install - Install node dependancies\n"
 usage="$usage server - run dev server\n"
 usage="$usage deploy $hostname - deploy to a host\n"
 
+if [ -d "nenv" && -z "$NODE_VIRTUAL_ENV" ]; then
+  source nenv/bin/activate
+fi
+
 if [ "$command" = "install" ]; then
   npm install
   bower install
