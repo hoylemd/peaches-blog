@@ -1,7 +1,7 @@
 <h3>This is the index.</h3>
 
 <ul>
-  <li>{{link-to "post" 1}}</li>
-  <li>{{link-to "post" 2}}</li>
-  <li>{{link-to "post" 3}}</li>
+  {{#each post in model}}
+  <li>{{#link-to 'blog.post' post}}{{post}}{{/link-to}}</li>
+  {{/each}}
 </ul>
